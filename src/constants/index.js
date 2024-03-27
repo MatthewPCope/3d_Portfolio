@@ -14,6 +14,7 @@ import {
     mongodb,
     git,
     figma,
+    github,
     docker,
     meta,
     starbucks,
@@ -67,6 +68,10 @@ import {
     {
       name: "CSS 3",
       icon: css,
+    },
+    {
+      name: "Github",
+      icon: github,
     },
     {
       name: "JavaScript",
