@@ -7,11 +7,16 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import Python1 from './tech/Python1.png'
+import MySQL from './tech/MySQL.png'
+import Bootstrap from './tech/Bootstrap.png'
 import css from "./tech/css.png";
+import Flask from './tech/Flask.png'
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
+import Java from './tech/Java.png'
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
@@ -35,6 +40,9 @@ export {
   backend,
   creator,
   mobile,
+  Python1,
+  MySQL,
+  Bootstrap,
   web,
   github,
   menu,
@@ -49,7 +57,9 @@ export {
   nodejs,
   reactjs,
   redux,
+  Java,
   tailwind,
+  Flask,
   typescript,
   threejs,
   meta,

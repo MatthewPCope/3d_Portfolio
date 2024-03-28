@@ -5,15 +5,20 @@ import {
     web,
     javascript,
     typescript,
+    Flask,
     html,
     css,
     reactjs,
     redux,
+    Bootstrap,
+    MySQL,
+    Java,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
+    Python1,
     github,
     docker,
     meta,
@@ -62,6 +67,14 @@ import {
   
   const technologies = [
     {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "React JS",
+      icon: reactjs,
+    },
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -70,24 +83,21 @@ import {
       icon: css,
     },
     {
+      name: "Python",
+      icon: Python1,
+    },
+    {
+      name: "Java",
+      icon: Java,
+    },
+    
+    {
       name: "Github",
       icon: github,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Bootstrap",
+      icon: Bootstrap,
     },
     {
       name: "Tailwind CSS",
@@ -98,25 +108,24 @@ import {
       icon: nodejs,
     },
     {
+      name: "Flask",
+      icon: Flask,
+    },
+    {
+      name: "MySQL",
+      icon: MySQL,
+    },
+    {
       name: "MongoDB",
       icon: mongodb,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
+    
     {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    
+    
   ];
   
   const experiences = [
