@@ -91,10 +91,7 @@ import {
       icon: Java,
     },
     
-    {
-      name: "Github",
-      icon: github,
-    },
+    
     {
       name: "Bootstrap",
       icon: Bootstrap,
@@ -107,10 +104,7 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    {
-      name: "Flask",
-      icon: Flask,
-    },
+    
     {
       name: "MySQL",
       icon: MySQL,
