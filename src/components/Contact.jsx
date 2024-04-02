@@ -6,6 +6,8 @@ import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../hoc'
 import { slideIn } from "../utils/motion"
 
+
+
 const Contact = () => {
   const formRef = useRef()
   const [ form , setForm ] = useState({
@@ -16,10 +18,39 @@ const Contact = () => {
   const [ loading, setLoading ] = useState(false)
 
   const changeHandler =(e) => {
-
+    const { name, value } = e.target
+    setForm({...form, [name]: value})
   }
   const submitHandler = (e) => {
+    e.preventDefault()
+    setLoading(true)
 
+    emailjs.send(
+      'service_gah70mb', 
+      'template_gm8o1s8',
+      {
+        from_name: form.name,
+        to_name: "Matt",
+        from_email: form.email,
+        to_email: "matthew.p.cope@gmail.com",
+        message: form.message
+      },
+      'EpUlmZbL0nsJI0Bbw'
+      )
+      .then(() => {
+        setLoading(false)
+        alert("Thank you, I will get back to you as soon as possible.")
+        setForm({
+          name:'',
+          email:'',
+          message:''
+        })
+      }, (error) => {
+        setLoading(false)
+
+        console.log(error)
+        alert("Something went wrong")
+      })
   }
 
   return (
