@@ -15,6 +15,7 @@ import {
     Java,
     tailwind,
     nodejs,
+    mattgpt,
     mongodb,
     git,
     figma,
@@ -26,6 +27,8 @@ import {
     tesla,
     shopify,
     carrent,
+    audio,
+    barkeepers,
     jobit,
     tripguide,
     threejs,
@@ -206,9 +209,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Audio Addiction",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to log and track all of their audio gear",
       tags: [
         {
           name: "react",
@@ -219,17 +222,17 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "node",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: audio,
+      source_code_link: "https://github.com/MatthewPCope/Audio_Addiction_Final",
     },
     {
-      name: "Job IT",
+      name: "Barkeeper's Companion",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that allows bartenders to input and track their recipes as well as various riffs on cocktails",
       tags: [
         {
           name: "react",
@@ -240,24 +243,24 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "bootstrap",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: barkeepers,
+      source_code_link: "https://github.com/MatthewPCope/Barkeepers_Companion_Remix",
     },
     {
-      name: "Trip Guide",
+      name: "MattGPT",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "ChatGPT clone utilizing OpenAI API.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "openai",
           color: "green-text-gradient",
         },
         {
@@ -265,8 +268,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: mattgpt,
+      source_code_link: "https://github.com/MatthewPCope/MattGPT",
     },
   ];
   

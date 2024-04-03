@@ -32,6 +32,9 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import barkeepers from './barkeepers.png'
+import mattgpt from './mattgpt.png'
+import audio from './audio.png'
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -50,6 +53,7 @@ export {
   css,
   docker,
   figma,
+  mattgpt,
   git,
   html,
   javascript,
@@ -65,8 +69,10 @@ export {
   meta,
   shopify,
   starbucks,
+  barkeepers,
   tesla,
   carrent,
+  audio,
   jobit,
   tripguide,
 };
