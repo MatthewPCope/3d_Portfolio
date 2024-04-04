@@ -12,6 +12,7 @@ import {
     redux,
     Bootstrap,
     MySQL,
+    vidproquo,
     Java,
     tailwind,
     nodejs,
@@ -45,9 +46,13 @@ import {
       title: "Work",
     },
     {
+      id: "projects",
+      title: "Projects"
+    },
+    {
       id: "contact",
       title: "Contact",
-    },
+    }
   ];
   
   const services = [
@@ -134,23 +139,22 @@ import {
       iconBg: "#383E56",
       date: "October 2010 - December 2015",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Ensured quality control of video department at San Francisco branch.",
+        "Facilitated effective communication between calendar team, clients, and myself.",
+        "Maintained accurate documentation of worksheets and order forms for depositions.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Founder",
+      company_name: "Vid Pro Quo, Inc",
+      icon: vidproquo,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2016 - March 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Founded a successful company specializing in legal videography services.",
+        "Secured contracts with leading court reporting firms in the SF Bay Area.",
+        "Demonstrated proficiency in financial management through thorough tracking of invoices, expenses, and billing using QuickBooks.",
+        "Collaborated closely with attorney clients, court reporters, and other stakeholders to ensure compliance with court-approved video record requirements.",
       ],
     },
     {

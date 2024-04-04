@@ -30,6 +30,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import esquire from './company/esquire.png'
+import vidproquo from './company/vidproquo.png'
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -59,6 +60,7 @@ export {
   git,
   html,
   javascript,
+  vidproquo,
   mongodb,
   nodejs,
   reactjs,
