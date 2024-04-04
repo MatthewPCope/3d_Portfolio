@@ -26,6 +26,7 @@ import {
     starbucks,
     tesla,
     shopify,
+    esquire,
     carrent,
     audio,
     barkeepers,
@@ -127,11 +128,11 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "In-House Legal Videographer",
+      company_name: "Esquire Deposition Solutions",
+      icon: esquire,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "October 2010 - December 2015",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -249,6 +250,7 @@ import {
       ],
       image: barkeepers,
       source_code_link: "https://github.com/MatthewPCope/Barkeepers_Companion_Remix",
+      weblink: "https://reverb.com/"
     },
     {
       name: "MattGPT",
@@ -264,12 +266,13 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "firebase",
           color: "pink-text-gradient",
         },
       ],
       image: mattgpt,
       source_code_link: "https://github.com/MatthewPCope/MattGPT",
+      weblink: "https://mattgpt-a969f.web.app/"
     },
   ];
   
