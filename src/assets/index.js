@@ -31,6 +31,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import esquire from './company/esquire.png'
 import vidproquo from './company/vidproquo.png'
+import dojoLogo from './company/dojoLogo.png'
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -56,6 +57,7 @@ export {
   css,
   docker,
   figma,
+  dojoLogo,
   mattgpt,
   git,
   html,
