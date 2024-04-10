@@ -56,7 +56,7 @@ const Works = () => {
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          These are some projects I've done.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt illum odio incidunt harum similique earum repudiandae rerum quod quidem, veritatis optio, nihil dolorem magnam rem alias sequi modi reiciendis. Distinctio.
+          I'm proud to present two full-stack web applications that demonstrate my expertise in MVC architecture, database integration, and comprehensive CRUD operations. These projects illustrate my capability to merge front-end and back-end technologies for creating efficient, user-friendly platforms. Additionally, I've developed a ChatGPT clone utilizing the OpenAI API, showcasing my skills in leveraging advanced AI to mimic conversational experiences, further underlining my versatility in software development.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">

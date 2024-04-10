@@ -165,11 +165,25 @@ import {
       iconBg: "#383E56",
       date: "Mar 2023 - Dec 2023",
       points: [
-        "Developing and maintaining full stack web applications using React.js and other related technologies.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Gained proficiency in multiple programming languages relevant to full-stack development, such as Javascript, Python and Java",
+        "Learned how to build user interfaces and client-side experiences using HTML, CSS, and JavaScript frameworks like React.",
+        "Developed an understanding of server-side programming concepts and learned to create and manage databases, construct APIs, and handle server-side logic.",
+        "Integrated front-end and back-end technologies to create seamless, functional web applications from start to finish."
       ],
     },
-    
+    {
+      title: "Aspiring Full Stack Developer",
+      company_name: "Coding Dojo",
+      icon: dojoLogo,
+      iconBg: "#383E56",
+      date: "Mar 2023 - Dec 2023",
+      points: [
+        "Integrated front-end and back-end technologies to create seamless, functional web applications from start to finish.",
+        "Became proficient with version control systems like Git, learning how to manage code changes, collaborate with other developers, and use platforms like GitHub.",
+        "Learned key software development principles and practices, including object-oriented programming, MVC architecture, RESTful API design, and more.",
+        "Gained experience deploying applications to the web, understanding web hosting cloud services like AWS, and operations essentials for maintaining live applications."
+      ],
+    },
   ];
   
   const testimonials = [
